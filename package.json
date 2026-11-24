@@ -1,0 +1,13 @@
+{
+  "name": "product-link-cleaner-userscript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "淘宝、天猫、京东商品链接净化复制油猴脚本",
+  "scripts": {
+    "test": "node --test tests/url.test.cjs",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}
